@@ -15,4 +15,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    public void onStart ()
+    {
+        super.onStart();
+        Log.d(tag, "In the onStart() event");
+    }
 }
